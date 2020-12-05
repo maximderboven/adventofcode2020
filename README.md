@@ -25,3 +25,9 @@ part 1 + using input values or finals.
 Split string on empty line and foreach check if it contains the required titles
 ### part 2
 using part 1 to split again to get the values separated, and store them in vars to waterfall them thru ifs to check condition and count.
+
+## Day 5
+### part 1
+looping array with boarding passes : check first 7/last 3 chars and depending on that determine the lower and upper limit until you have the same number in both limits. Storing all results in array and printing the max within the array.
+### part 2
+running part1 with fori and check which is missing.

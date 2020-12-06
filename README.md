@@ -1,6 +1,8 @@
 # adventofcode2020
 advent of code 2020
 using Java
+⚠️ Diclaimer : If it works it works. ⚠️
+⚠️ Was je ogen uit met zeep na het zien van mijn code. ⚠️
 
 ## Day 1
 ### part 1
@@ -32,8 +34,13 @@ looping array with boarding passes : check first 7/last 3 chars and depending on
 ### part 2
 running part1 with fori and check which is missing.
 
-## Day 5
+## Day 6
 ### part 1
 Splitting on new line and storing in array. Run through and put all unique answers in another array and count the array with size.
 ### part 2
 Get the same unique array and an array with the all the answers and compare them with frequence and a personcounter to check how many persons have answered based on the newlines within one group. if one > add all answers as answered
+
+## Day 7
+### part 1
+
+### part 2

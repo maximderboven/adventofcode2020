@@ -31,3 +31,9 @@ using part 1 to split again to get the values separated, and store them in vars 
 looping array with boarding passes : check first 7/last 3 chars and depending on that determine the lower and upper limit until you have the same number in both limits. Storing all results in array and printing the max within the array.
 ### part 2
 running part1 with fori and check which is missing.
+
+## Day 5
+### part 1
+Splitting on new line and storing in array. Run through and put all unique answers in another array and count the array with size.
+### part 2
+Get the same unique array and an array with the all the answers and compare them with frequence and a personcounter to check how many persons have answered based on the newlines within one group. if one > add all answers as answered

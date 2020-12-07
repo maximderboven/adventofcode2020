@@ -1,0 +1,16 @@
+light red bag contains n bright white bag
+light red bag contains n muted tellow bag
+0	1  2   	3	4  5	6 	7
+
+
+controlled = x[^]
+
+Parents controlleren
+-1 want we willen de zak zelf niet
+
+part 2;
+voor elke bag.size()
+teller = 1;
+for elke n in de zakken
+teller += n*size
+print teller;

@@ -1,8 +1,6 @@
 # adventofcode2020
 advent of code 2020
 using Java
-⚠️ Diclaimer : If it works it works. ⚠️
-⚠️ Was je ogen uit met zeep na het zien van mijn code. ⚠️
 
 ## Day 1
 ### part 1
@@ -18,13 +16,13 @@ same as part 1; but use chars on index for condition.
 
 ## Day 3
 ### part 1
-loop thru array and check char on postion for '#' and count.
+loop thru array and check char on position for '#' and count.
 ### part 2
 part 1 + using input values or finals.
 
 ## Day 4
 ### part 1
-Split string on empty line and foreach check if it contains the required titles
+Split string on empty line and for each check if it contains the required titles
 ### part 2
 using part 1 to split again to get the values separated, and store them in vars to waterfall them thru ifs to check condition and count.
 
@@ -38,9 +36,10 @@ running part1 with fori and check which is missing.
 ### part 1
 Splitting on new line and storing in array. Run through and put all unique answers in another array and count the array with size.
 ### part 2
-Get the same unique array and an array with the all the answers and compare them with frequence and a personcounter to check how many persons have answered based on the newlines within one group. if one > add all answers as answered
+Get the same unique array and an array with the all the answers and compare them with frequency and a person counter to check how many persons have answered based on the newlines within one group. if one > add all answers as answered
 
 ## Day 7
 ### part 1
-
+Start by parsing data into something useful "color n color": recursive loop through items using parent and child beware that a child can be a parent as well. (tried using Generic Graph with vertexes)
 ### part 2
+using n to get the amount of bags within a bag and multiply by the amount of possibilities.

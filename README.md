@@ -43,3 +43,9 @@ Get the same unique array and an array with the all the answers and compare them
 Start by parsing data into something useful "color n color": recursive loop through items using parent and child beware that a child can be a parent as well. (tried using Generic Graph with vertexes)
 ### part 2
 using n to get the amount of bags within a bag and multiply by the amount of possibilities.
+
+## Day 8
+### part 1
+Started by splitting the instructions and making an object & storing them in an array. looping the array, set a flag by used once. Once he enters a flag that means the loop is starting over. counting the acc.
+### part 2
+rewrited the first code without external class and object. looped until the program terminates. If it didn't: brute force change 'nop' to 'jmp' or 'jmp' to 'nop'.

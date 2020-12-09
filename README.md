@@ -49,3 +49,9 @@ using n to get the amount of bags within a bag and multiply by the amount of pos
 Started by splitting the instructions and making an object & storing them in an array. looping the array, set a flag by used once. Once he enters a flag that means the loop is starting over. counting the acc.
 ### part 2
 rewrited the first code without external class and object. looped until the program terminates. If it didn't: brute force change 'nop' to 'jmp' or 'jmp' to 'nop'.
+
+## Day 9
+### part 1
+brute force sum all 25 numbers underneath the suspect. if one of the sums is not the suspect we have our answer.
+### part 2
+sum all items (add in array) and offset +1 and null bound array every time the answer from part 1 is not found. When it is : get sum from max and min in array. 
